@@ -1,15 +1,15 @@
 #!/bin/bash
 
-start_date=$(date +%s)
+start_time=$(date +%s)
 
-echo "Script started execution at: $start_date "
+echo "Script started execution at: $start_time "
 
 sleep 10
 
-end_date=$(date +%s)
+end_time=$(date +%s)
 
-echo "Script ended execution at: $end_date "
+echo "Script ended execution at: $end_time "
 
-total_time=$(($start_date-$end_date))
+total_time=$(($end_time-$start_time))
 
 echo "Total time taken: $total_time seconds"
