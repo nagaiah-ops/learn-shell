@@ -10,6 +10,6 @@ end_date=$(date +%s)
 
 echo "Script ended execution at: $end_date "
 
-total_time=$($start_date-$end_date)
+total_time=$(($start_date-$end_date))
 
-echo "Total time taken: $seconds"
+echo "Total time taken: $total_time seconds"
